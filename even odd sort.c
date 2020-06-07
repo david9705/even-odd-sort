@@ -2,12 +2,12 @@
 #include<stdlib.h>
 #include<string.h>
 
-int cmp(void *a, void *b)  //»¼¼W
+int cmp(void *a, void *b)  //Increase
 {
     return *(int *)a > *(int *)b;
 }
 
-int cmp_less(void *a, void *b) //»¼´î
+int cmp_less(void *a, void *b) //Decrease
 {
     return *(int *)a < *(int *)b;
 }
